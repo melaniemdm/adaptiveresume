@@ -1,6 +1,8 @@
 import './style.scss';
 
 function Contact(){
+
+  
     return(
       <section id="contactMe">  
         <div className="containerContact" >

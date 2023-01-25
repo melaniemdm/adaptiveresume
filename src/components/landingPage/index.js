@@ -1,8 +1,9 @@
 import './style.scss';
 import logo from '../../assets/logo.png';
 import video from '../../assets/video.mp4';
+import { onPressSignUp } from '../utils/form';
 
-export default function Test(){
+export default function LandingPage(){
 
     return <div className="container">
     <main className="signup-container">
@@ -25,9 +26,11 @@ export default function Test(){
           <span className="label">Password</span>
           <span className="input-icon input-icon-password" data-password><i className="fa-solid fa-eye"></i></span>
         </label>
-        <button className="btn btn-login">Login</button>
+        <button  className="btn btn-login">Login</button>
       </form>
-      <p className="text-mute">Not a member? <a href="$">Sign up</a></p>
+      {/* <p className="text-mute">Not a member? <a href="$">Sign up</a></p> */}
+      <p>Pour participer à la version beta. Cliquez ici ! 
+      <button onClick={onPressSignUp} >Sign up</button></p>
     </main>
     <div className="welcome-container">
       <h1 className="heading-secondary">Welcome to  <br></br><span className="lg"> Adaptative Resume !</span>  </h1>
