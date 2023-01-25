@@ -8,7 +8,8 @@ export default function Contact(){
         <div className="containerContact" >
    
           <div className="containerForm">
-            <h1 className="titleForm">Formulaire de contact</h1>
+            <h1 className="titleForm"> Essayez Adaptative Resume dès
+maintenant en participant à notre version beta !</h1>
    
             <iframe
               src="https://tally.so/embed/nrDMOL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"

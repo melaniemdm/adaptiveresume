@@ -8,13 +8,12 @@ export default function LandingPage(){
 
     return <div className="containerLanding">
     <main className="signup-container">
-      <div className="heading-primary"><img
+     <div className="containerCradLogo"><div className="heading-primary"><img
           className="logo-image"
           src={logo}
           alt="logo"
-        /></div>
-      <p className="text-mute">Essayez-le dès
-maintenant en participant à notre version beta !</p>
+        /></div></div> 
+     
    
       <Contact/>
     
