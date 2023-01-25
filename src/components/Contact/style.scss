@@ -1,5 +1,5 @@
 .containerContact{
-    padding-top: 50px;
+    padding-top: 10px;
      width: 100%;
      }
 
@@ -11,7 +11,7 @@
    /* Ajouter box-sizing */
    box-sizing : border-box;
    border-radius:5px;
-   background-color:white;
+   background-color:gainsboro;
    padding:20px;
    width: 100%;
    /* redéfinition 400 + 2*20 */
@@ -21,6 +21,6 @@
 
 
  iframe{
-   width: 100%;
+   width: 700px;
    height: 620px;
  }
