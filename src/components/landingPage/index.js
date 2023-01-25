@@ -32,9 +32,11 @@ export default function LandingPage(){
       <p>Pour participer à la version beta. Cliquez ici ! 
       <button onClick={onPressSignUp} >Sign up</button></p>
     </main>
+
+
     <div className="welcome-container">
       <h1 className="heading-secondary">Welcome to  <br></br><span className="lg"> Adaptative Resume !</span>  </h1>
-        <div><p>Créez des CV personnalisés pour
+        <div className='accroche'><p>Créez des CV personnalisés pour
 chaque opportunité et augmentez vos chances de succès. </p>
 <p>Essayez-le dès
 maintenant en participant à notre version beta !</p><br></br></div>
