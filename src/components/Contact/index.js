@@ -1,6 +1,6 @@
 import './style.scss';
 
-function Contact(){
+export default function Contact(){
 
   
     return(
@@ -25,4 +25,4 @@ function Contact(){
         </div></section>
     );
   }
-  export default Contact;
+  

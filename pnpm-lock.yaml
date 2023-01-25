@@ -15,6 +15,7 @@ specifiers:
   react-dom: ^18.2.0
   react-redux: ^8.0.5
   react-router-dom: ^6.7.0
+  react-router-hash-link: ^2.4.3
   react-scripts: 5.0.1
   typescript: '>=3.2.1 <4.0.0 || >=4.0.0 <5.0.0'
   web-vitals: ^2.1.4
@@ -34,6 +35,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-redux: 8.0.5_react-dom@18.2.0+react@18.2.0
   react-router-dom: 6.7.0_react-dom@18.2.0+react@18.2.0
+  react-router-hash-link: 2.4.3_ebae49a6fbe320c088f169cb0e2f6819
   react-scripts: 5.0.1_994e6595a51826166d1c754086b1e1c6
   typescript: 4.9.4
   web-vitals: 2.1.4
@@ -9045,6 +9047,17 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-router: 6.7.0_react@18.2.0
+    dev: false
+
+  /react-router-hash-link/2.4.3_ebae49a6fbe320c088f169cb0e2f6819:
+    resolution: {integrity: sha512-NU7GWc265m92xh/aYD79Vr1W+zAIXDWp3L2YZOYP4rCqPnJ6LI6vh3+rKgkidtYijozHclaEQTAHaAaMWPVI4A==}
+    peerDependencies:
+      react: '>=15'
+      react-router-dom: '>=4'
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-router-dom: 6.7.0_react-dom@18.2.0+react@18.2.0
     dev: false
 
   /react-router/6.7.0_react@18.2.0:

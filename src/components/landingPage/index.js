@@ -1,7 +1,8 @@
 import './style.scss';
 import logo from '../../assets/logo.png';
 import video from '../../assets/video.mp4';
-import { onPressSignUp } from '../utils/form';
+import { HashLink as Link } from "react-router-hash-link";
+
 
 export default function LandingPage(){
 
@@ -28,9 +29,12 @@ export default function LandingPage(){
         </label>
         <button  className="btn btn-login">Login</button>
       </form>
-      {/* <p className="text-mute">Not a member? <a href="$">Sign up</a></p> */}
-      <p>Pour participer à la version beta. Cliquez ici ! 
-      <button onClick={onPressSignUp} >Sign up</button></p>
+ 
+      <p>Pour participer à la version beta. Cliquez ici ! <Link to="/demandeContact" className="signup" >   Sign up
+    </Link></p>  
+     
+     
+    
     </main>
 
 
@@ -41,7 +45,7 @@ chaque opportunité et augmentez vos chances de succès. </p>
 <p>Essayez-le dès
 maintenant en participant à notre version beta !</p><br></br></div>
  <div className="videoContainer">
-				<video src={video} type="video/mp4" controls="true" width="100%" height="100%"/>
+				<video src={video} type="video/mp4" controls={true} width="100%" height="100%"/>
 			</div>
 
       </div>
