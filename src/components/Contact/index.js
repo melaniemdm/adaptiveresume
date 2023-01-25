@@ -8,7 +8,7 @@ export default function Contact(){
         <div className="containerContact" >
    
           <div className="containerForm">
-            <h1 className="titleForm"> Essayez Adaptative Resume dès
+            <h1 className="titleForm"> Essayez <strong>Adaptative Resume</strong> dès
 maintenant en participant à notre version beta !</h1>
    
             <iframe

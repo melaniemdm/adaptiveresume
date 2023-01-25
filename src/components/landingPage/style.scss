@@ -16,7 +16,7 @@
     background: gainsboro;
      }
      .videoContainer{
-      margin-top:80px;
+      margin-top:60px;
      }
   a {
     color: #2196f3;
@@ -25,6 +25,7 @@
   p, a{
     font-family: "Trebuchet MS", sans-serif;
   }
+ 
   h1{
     font-family: Vernada;
   }
@@ -81,7 +82,11 @@
   .accroche{
     text-align: center;
     font-size: 15px;
+    
     margin-top: 80px;
+      }
+      strong{
+        color: tomato;
       }
   .lg {
     font-size: 6rem;
